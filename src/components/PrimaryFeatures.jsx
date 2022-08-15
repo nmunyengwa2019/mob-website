@@ -10,31 +10,40 @@ import screenshotPayroll from '@/images/screenshots/payroll.png'
 import screenshotReporting from '@/images/screenshots/reporting.png'
 import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 import SoftwareService from './SoftwareService'
+import CashBot from '-!url-loader!../images/logos/CashBot.webp'
+import Mobile from '-!url-loader!../images/logos/mobile.jpg'
+import AI from '-!url-loader!../images/logos/data.jpg'
+import Web from '-!url-loader!../images/logos/website.jpg'
+import Bloc from '-!url-loader!../images/logos/blockchain.png'
 
 const features = [
   {
     title: 'Mobile app development',
     description:
       "Android Apps(Java,Kotlin / Flutter), iOS Apps (Swift,Obj-C / flutter), Hybrid App (React Native)",
-    image: screenshotPayroll,
+    image: Mobile ,
+    sideDescription:'describe the process of mobile dev'
   },
   {
     title: 'Artificial Intelligence',
     description:
       "Conversational AI (Chatbots), Big Data Analytics, Prediction and Optimization",
-    image: screenshotExpenses,
+    image: AI,
+    sideDescription:'Data analytics- AI'
   },
   {
     title: 'Web app development',
     description:
       "Full Stack Development, UI/UX Design, Analytics and Intergration",
-    image: screenshotVatReturns,
+    image: Web,
+    sideDescription:'describe the process of web dev'
   },
   {
     title: 'Blockchain',
     description:
       'Protocol Development, Smart Contracts, Client Integration',
-    image: screenshotReporting,
+    image: Bloc,
+    sideDescription:'describe how we do blockchain dev'
   },
 ]
 
@@ -76,7 +85,7 @@ export function PrimaryFeatures() {
             Our Services.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-          Our wide range of custom software, mobile app, USSD, and web development solutions help to transform your business
+          We regard you as a strategic partner - We love what we do and are very passionate and committed to see your project fly! Let's Build Something Great. Together!
           </p>
         </div>
         <Tab.Group
@@ -135,7 +144,7 @@ export function PrimaryFeatures() {
                         {feature.description}
                       </p>
                     </div>
-                    <SoftwareService/>
+                    <SoftwareService image={feature.image} side={feature.sideDescription}/>
                     <div className="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
                       {/* <Image
                         className="w-full"

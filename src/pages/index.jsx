@@ -26,7 +26,7 @@ export default function Home() {
         />
       </Head>
       <Header  />
-      <Vidz/>
+      {/* <Vidz/> */}
       <main className='bg-slate-50'>
         <Hero />
         <PrimaryFeatures />

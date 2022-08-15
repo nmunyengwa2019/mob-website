@@ -103,21 +103,25 @@ export function Header() {
               {/* <Logo className="h-10 w-auto" /> */}
             </Link> 
             <div className="hidden text-white md:flex md:gap-x-6 mt-5  pb-2 ">
-              <NavLink href="/">HOME</NavLink>
-              <NavLink href="#features">SERVICES</NavLink>
-              <NavLink href="#testimonials">ABOUT US</NavLink>
-              <NavLink href="#pricing">PRICING</NavLink>
+              <NavLink href="/">Home</NavLink>
+              <NavLink href="#features">Our Solutions</NavLink>
+              <NavLink href="#testimonials">Technologies</NavLink>
+              <NavLink href="#pricing">Pricing</NavLink>
+              <NavLink href="#pricing">About Us</NavLink>
+              
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <div className="hidden md:block">
               {/* <NavLink href="/login">Sign in</NavLink> */}
             </div>
-            <Button href="/register"  className="button border bg-gradient-to-r from-blue-400 to-transparent sm:rounded-full">
+            <Link href='/register'>
+            <Button  className="button border bg-gradient-to-r from-blue-400 to-transparent sm:rounded-full">
               <span>
                 Contact us <span className="hidden lg:inline"></span>
               </span>
             </Button>
+            </Link>
             <div className=" -mr-1 md:hidden">
               <MobileNavigation />
             </div>

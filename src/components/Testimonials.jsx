@@ -1,29 +1,29 @@
 import Image from 'next/future/image'
 
 import { Container } from '@/components/Container'
-import avatarImage1 from '@/images/avatars/avatar-1.png'
-import avatarImage2 from '@/images/avatars/avatar-2.png'
-import avatarImage3 from '@/images/avatars/avatar-3.png'
-import avatarImage4 from '@/images/avatars/avatar-4.png'
-import avatarImage5 from '@/images/avatars/avatar-5.png'
+import avatarImage1 from '@/images/avatars/website.jpg'
+import avatarImage2 from '@/images/avatars/website.jpg'
+import avatarImage3 from '@/images/avatars/website.jpg'
+import avatarImage4 from '@/images/avatars/website.jpg'
+import avatarImage5 from '@/images/avatars/website.jpg'
 
 const testimonials = [
   [
     {
       content:
-        'TaxPal is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.',
+        'Java is also used by us as a base for Android development in creating mobile apps for Google Play.',
       author: {
-        name: 'Sheryl Berge',
-        role: 'CEO at Lynch LLC',
+        name: 'Java',
+        role: '',
         image: avatarImage1,
       },
     },
     {
       content:
-        'I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.',
+        'We develop custom Android Applications for your business using Kotlin, Java, and Flutter.',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
+        name: 'Android',
+        role: '',
         image: avatarImage4,
       },
     },
@@ -31,19 +31,19 @@ const testimonials = [
   [
     {
       content:
-        'The best part about TaxPal is every time I pay my employees, my bank balance doesn’t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.',
+        "With MobiSoft's iOS app development services, you'll obtain powerful and intuitive iOS mobile apps that meet your business needs. Our expertise in iOS app design and development spans the entire Apple ecosystem.",
       author: {
-        name: 'Leland Kiehn',
-        role: 'Founder of Kiehn and Sons',
+        name: 'iOS',
+        role: '',
         image: avatarImage5,
       },
     },
     {
       content:
-        'There are so many things I had to do with my old software that I just don’t do at all with TaxPal. Suspicious but I can’t say I don’t love it.',
+        'We develop use AI for Big Data Analytics, Prediction and Optimization, and to develop ChatBots (Conversational AI) ',
       author: {
-        name: 'Erin Powlowski',
-        role: 'COO at Armstrong Inc',
+        name: 'Artificial Intelligence',
+        role: '',
         image: avatarImage2,
       },
     },
@@ -51,19 +51,19 @@ const testimonials = [
   [
     {
       content:
-        'I used to have to remit tax to the EU and with TaxPal I somehow don’t have to do that anymore. Nervous to travel there now though.',
+        'We use AngularJS for web development. Our programmers write a front-end part in Angular and a back-end part in Node.JS to build heavy projects, for example, CRM.',
       author: {
-        name: 'Peter Renolds',
-        role: 'Founder of West Inc',
+        name: 'AngularJS',
+        role: '',
         image: avatarImage3,
       },
     },
     {
       content:
-        'This is the fourth email I’ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.',
+        'We use python for Machine Learning, Artificial Intelligence and web development.',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
+        name: 'Python',
+        role: '',
         image: avatarImage4,
       },
     },
@@ -85,15 +85,13 @@ export function Testimonials() {
       aria-label="What our customers are saying"
       className="bg-slate-50 py-20 sm:py-32"
     >
-      <Container>
+      <Container className='bg-gradient-to-r from-blue-400 to-transparent pb-2 pt-4'>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
             Technologies We Use
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Our software is so simple that people can’t help but fall in love
-            with it. Simplicity is easy when you just skip tons of
-            mission-critical features.
+          We love software that simplifies work.
           </p>
         </div>
         <ul
@@ -105,8 +103,8 @@ export function Testimonials() {
               <ul role="list" className="flex flex-col gap-y-6 sm:gap-y-8">
                 {column.map((testimonial, testimonialIndex) => (
                   <li key={testimonialIndex}>
-                    <figure className="relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
-                      <QuoteIcon className="absolute top-6 left-6 fill-slate-100" />
+                    <figure className="relative rounded-2xl bg-slate-200 hover:bg-white p-6 shadow-xl shadow-slate-900/10">
+                      {/* <QuoteIcon className="absolute top-6 left-6 fill-slate-100" /> */}
                       <blockquote className="relative">
                         <p className="text-lg tracking-tight text-slate-900">
                           {testimonial.content}

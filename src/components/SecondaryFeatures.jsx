@@ -7,14 +7,17 @@ import { Container } from '@/components/Container'
 import screenshotContacts from '@/images/screenshots/contacts.png'
 import screenshotInventory from '@/images/screenshots/inventory.png'
 import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
+import happyCustomer from '@/images/screenshots/customer.png'
+import happyCustomer1 from '@/images/screenshots/customer1.png'
+import happyCustomer2 from '@/images/screenshots/customer2.png'
 
 const features = [
   {
-    name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    name: 'XYZ',
+    summary: 'A360 mobile app.',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
-    image: screenshotProfitLoss,
+      'Describe what we developed for company XYZ......',
+    image: happyCustomer1,
     icon: function ReportingIcon() {
       let id = useId()
       return (
@@ -44,12 +47,12 @@ const features = [
     },
   },
   {
-    name: 'Inventory',
+    name: 'XYZ',
     summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+      'XYZ mobile app, USSD, mini CRM, WhatsApp ChatBot',
     description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
-    image: screenshotInventory,
+      'Describe what we developed for company XYZ......',
+    image: happyCustomer,
     icon: function InventoryIcon() {
       return (
         <>
@@ -72,12 +75,12 @@ const features = [
     },
   },
   {
-    name: 'Contacts',
+    name: 'XYZ',
     summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
+      'XYZ mobile app, USSD, mini CRM, WhatsApp ChatBot',
     description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
-    image: screenshotContacts,
+      'Describe what we developed for company XYZ ......',
+    image: happyCustomer2,
     icon: function ContactsIcon() {
       return (
         <>
@@ -108,7 +111,7 @@ function Feature({ feature, isActive, className, ...props }) {
           isActive ? 'bg-blue-600' : 'bg-slate-500'
         )}
       >
-        <svg aria-hidden="true" className="h-9 w-9" fill="none">
+        <svg aria-hidden="true" className="h-9 w-9 rounded-sm" fill="none">
           <feature.icon />
         </svg>
       </div>
@@ -213,14 +216,13 @@ export function SecondaryFeatures() {
       aria-label="Features for simplifying everyday business tasks"
       className="pt-20 pb-14 sm:pb-20 sm:pt-32 lg:pb-32"
     >
-      <Container>
+      <Container className='bg-gradient-to-r from-blue-300 to-transparent'>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
           Satisfied Clients
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Because you’d probably be a little confused if we suggested you
-            complicate your everyday business tasks instead.
+            
           </p>
         </div>
         <FeaturesMobile />

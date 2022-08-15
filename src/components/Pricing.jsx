@@ -50,7 +50,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
   return (
     <section
       className={clsx(
-        'flex flex-col rounded-3xl px-6 sm:px-8',
+        'flex flex-col rounded-3xl px-6 sm:px-8 border-2 border-blue-600',
         featured ? 'order-first bg-blue-600 py-8 lg:order-none' : 'lg:py-8'
       )}
     >
@@ -117,14 +117,13 @@ export function Pricing() {
           <Plan
             name=""
             price="How it works"
-            description="Good for anyone who is self-employed and just getting started."
+            description="When we get a project, here is how we do it.  "
             href="/register"
             features={[
-              'Send 10 quotes and invoices',
-              'Connect up to 2 bank accounts',
-              'Track up to 15 expenses per month',
-              'Manual payroll support',
-              'Export up to 3 reports',
+              'we assemble specialists with domain expertise.',
+              'after approvals and a kickoff call, the first sprint begins.',
+              'There is a fixed cost per sprint based on market demand',
+              
             ]}
           />
           <Plan
@@ -148,11 +147,11 @@ export function Pricing() {
             description="For even the biggest enterprise companies."
             href="/register"
             features={[
-              'Send unlimited quotes and invoices',
-              'Connect up to 15 bank accounts',
-              'Track up to 200 expenses per month',
-              'Automated payroll support',
-              'Export up to 25 reports, including TPS',
+              'Every project gets a PM and a dedicated team of developers.',
+              'you get direct access to the PM.',
+              'Projects kickoff within 24 hours ',
+              'You get a demo of new features every sprint',
+             
             ]}
           />
         </div>
