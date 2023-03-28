@@ -1,6 +1,6 @@
 {
-  "homepage": "http://nmunyengwa2019@gmail.com.github.io/mob-website",
-  "name": "tailwindui-saas",
+  "homepage": "https://nmunyengwa2019@gmail.com.github.io/mob-website",
+  "name": "Mobisoft Website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -41,7 +41,7 @@
     "prettier-plugin-tailwindcss": "^0.1.11",
     "webpack": "^4.44.2"
   },
-  "description": "Salient is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).",
+  "description": "This project was developed by Noel Munyengwa. Contact 0782678233 , email: nmunyengwa2019@gmail.com",
   "main": "next.config.js",
   "author": "",
   "license": "ISC"
