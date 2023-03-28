@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import favicon from '-!url-loader!../images/logos/favicon.png'
+import favicon from '-!url-loader!@/images/logos/favicon.png'
 import { CallToAction } from '@/components/CallToAction'
 import { Faqs } from '@/components/Faqs'
 import { Footer } from '@/components/Footer'

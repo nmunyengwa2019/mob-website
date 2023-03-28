@@ -68,6 +68,7 @@ export default function Register() {
           <textarea type='textarea'label='Agenda' cols="120" rows="3" className='border rounded-md' placeholder='*What is your agenda?' type='textbox'></textarea>
           <div className="col-span-full">
             <Button
+                href='https://www.tecmint.com/test-local-websites-on-internet-using-ngrok/'
               type="submit"
               variant="solid"
               color="blue"
