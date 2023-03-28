@@ -16,7 +16,7 @@ export default function Register() {
       <Header/>
       <AuthLayout>
        <div>
-       Call an Expert <a href="tel:0719222402"><i class="fas fa-phone"></i><span className='text-blue-600'>+26371 922 2402</span></a>
+       Call an Expert <a href="tel:0719222402"><i class="fas fa-phone"></i><span className='text-blue-600'>+26378 2678 233</span></a>
        </div>
         <h2 className="text-lg mt-6 font-semibold text-gray-900">
             Request a meeting

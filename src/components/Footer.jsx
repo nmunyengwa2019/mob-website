@@ -45,11 +45,14 @@ export function Footer() {
               </svg>
             </Link>
           </div>
-          <div className='flex justify-center'>
+          <div className='flex justify-evenly'>
           <p className="mt-3 text-sm text-slate-500 sm:mt-0 flex justify-center">
             Copyright &copy; {new Date().getFullYear()} MobiSoft Pvt Ltd. All rights
             reserved.
             
+          </p> <p className="mt-3 mx-5 text-sm text-slate-500 sm:mt-0 flex justify-center">
+            Made by Noel Munyengwa
+
           </p>
           </div>
         </div>
