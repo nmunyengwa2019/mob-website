@@ -1,8 +1,11 @@
 {
+  "homepage": "http://nmunyengwa2019@gmail.com.github.io/mob-website",
   "name": "tailwindui-saas",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -33,6 +36,7 @@
     "eslint": "8.19.0",
     "eslint-config-next": "12.2.0",
     "file-loader": "^6.2.0",
+    "gh-pages": "^5.0.0",
     "prettier": "^2.7.1",
     "prettier-plugin-tailwindcss": "^0.1.11",
     "webpack": "^4.44.2"
