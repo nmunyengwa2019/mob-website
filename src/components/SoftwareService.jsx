@@ -1,13 +1,13 @@
 import React from 'react'
 import CashBot from '-!url-loader!../images/logos/CashBot.webp'
-const SoftwareService = ({image, side}) => {
+const SoftwareService = ({image, side,title}) => {
   return (
     
    <div className="max-w-sm w-[45rem] sm:w-auto lg:mt-0 lg:w-[67.8125rem] h-auto ml-60 mr-0 bg-slate-100 rounded-xl mx-20 h-100 w-50 overflow-hidden shadow-lg">
 
   <img className="w-full" src={image} alt="Sunset in the mountains"/>
   <div className="px-6 py-4">
-    <div className="font-bold text-xl mb-2">Title</div>
+    <div className="font-bold text-xl mb-2">{title}</div>
     <p className="text-gray-700 text-base">
       {side}
     </p>

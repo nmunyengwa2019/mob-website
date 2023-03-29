@@ -36,14 +36,14 @@ const features = [
     description:
       "Full Stack Development, UI/UX Design, Analytics and Intergration",
     image: Web,
-    sideDescription:'describe the process of web dev'
+    sideDescription:'Use JavaScript, React, PHP Laravel, Vercel to create, build, and maintaining of websites '
   },
   {
     title: 'Blockchain',
     description:
       'Protocol Development, Smart Contracts, Client Integration',
     image: Bloc,
-    sideDescription:'describe how we do blockchain dev'
+    sideDescription:'creating the infrastructure that allows for the creation and management of blockchain-based applications and services, '
   },
 ]
 
@@ -142,10 +142,10 @@ export function PrimaryFeatures() {
                     <div className="relative sm:px-6 lg:hidden">
                       <div className="absolute -inset-x-4 top-[-6.5rem] bottom-[-4.25rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl" />
                       <p className="relative mx-auto max-w-2xl text-base text-white sm:text-center">
-                        {feature.description}
+                        {/*{feature.description}*/}
                       </p>
                     </div>
-                    <SoftwareService image={feature.image} side={feature.sideDescription}/>
+                    <SoftwareService image={feature.image} side={feature.sideDescription} title={feature.title}/>
                     <div className="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
                       {/* <Image
                         className="w-full"
