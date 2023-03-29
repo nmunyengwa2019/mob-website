@@ -83,7 +83,7 @@ export function Testimonials() {
     <section
       id="testimonials"
       aria-label="What our customers are saying"
-      className="bg-slate-50 py-20 sm:py-32"
+      className="bg-slate-50 "
     >
       <Container className='bg-gradient-to-r from-blue-400 to-transparent pb-2 pt-4'>
         <div className="mx-auto max-w-2xl md:text-center">

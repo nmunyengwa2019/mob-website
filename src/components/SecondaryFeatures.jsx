@@ -214,9 +214,9 @@ export function SecondaryFeatures() {
     <section
       id="secondary-features"
       aria-label="Features for simplifying everyday business tasks"
-      className="pt-20 pb-14 sm:pb-20 sm:pt-32 lg:pb-32"
+      className=""
     >
-      <Container className='bg-gradient-to-r from-blue-300 to-transparent'>
+      <Container className='pt-8 bg-gradient-to-r from-blue-300 to-transparent'>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
           Satisfied Clients

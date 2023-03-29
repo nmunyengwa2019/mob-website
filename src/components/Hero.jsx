@@ -16,7 +16,7 @@ import logoVestPal from '@/images/logos/VestPal.webp'
 
 export function Hero() {
   return (
-    <Container className="pt-20 pb-16  text-center lg:pt-32 bg-gradient-to-b from-transparent to-blue-700">
+    <Container className="pt-20 pb-16  px-0 text-center lg:pt-32 bg-gradient-to-b from-transparent to-blue-700">
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
         Custom{' '}
         <span className="relative whitespace-nowrap text-blue-600">
