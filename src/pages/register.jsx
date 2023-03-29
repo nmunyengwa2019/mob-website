@@ -16,7 +16,7 @@ export default function Register() {
       <Header/>
       <AuthLayout>
        <div>
-       Call an Expert <a href="tel:0719222402"><i class="fas fa-phone"></i><span className='text-blue-600'>+26378 2678 233</span></a>
+       Call an Expert <a href="tel:0719222402"><i className="fas fa-phone"></i><span className='text-blue-600'>+26378 2678 233</span></a>
        </div>
         <h2 className="text-lg mt-6 font-semibold text-gray-900">
             Request a meeting
@@ -65,6 +65,7 @@ export default function Register() {
             <option>Web App</option>
             <option>Consultation</option>
           </SelectField>
+            {/* eslint-disable-next-line react/jsx-no-duplicate-props */}
           <textarea type='textarea'label='Agenda' cols="120" rows="3" className='border rounded-md' placeholder='*What is your agenda?' type='textbox'></textarea>
           <div className="col-span-full">
             <Button

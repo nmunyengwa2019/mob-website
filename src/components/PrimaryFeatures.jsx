@@ -85,6 +85,7 @@ export function PrimaryFeatures() {
             Our Services.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
           We regard you as a strategic partner - We love what we do and are very passionate and committed to see your project fly! Let's Build Something Great. Together!
           </p>
         </div>
