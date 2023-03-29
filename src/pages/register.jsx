@@ -46,7 +46,7 @@ export default function Register() {
             className="col-span-full"
             label="Email address"
             id="email"
-            placeholder='xyz@gmail.com'
+            placeholder='hello@gmail.com'
             name="email"
             type="email"
             autoComplete="email"
